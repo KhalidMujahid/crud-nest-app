@@ -1,0 +1,12 @@
+POST http://localhost:3000/books
+Content-Type: application/json
+Accept: application/json
+
+{
+    "book_author":"khalid mujahid",
+    "book_title":"my another new book"
+}
+
+
+###
+GET http://localhost:3000/books/6466738ed093884df72d0c33
